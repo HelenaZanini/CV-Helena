@@ -1,10 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #9900cc;
   width: 100%;
-  line-height: 1.5;
+  line-height: 1.5;  
   font-family: Times New Roman;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
 
 .fixo {
@@ -23,12 +26,47 @@ body {
   font-size: 1.25rem;
 }
 
-.msg_icons {
-  width: 220px;
-}
-
 .fixo a {
   color: #fff;
-  vertical-align: top;
 }
 
+.layer {
+  background-color: #fff;
+  opacity: 0.8;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 1.25rem;
+}
+
+.container p, .container ul {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+.container li {
+  list-style: disc;
+}
+
+.dashed_line {
+  width: 90%;
+  border-style: dashed;
+  color: gray;  
+}
+
+@media screen and (min-width: 1024px) { 
+  .fixo {
+    position: fixed;
+    width: 22.5%;
+    text-align: center;
+  }
+
+  .layer {
+    margin: 5% 2.5% 2.5% auto;
+    width: 75%;
+  }
+}
