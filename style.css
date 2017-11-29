@@ -48,6 +48,10 @@ body {
 
 }
 
+.container hr {
+  margin: 1% 0 1% 0;
+}
+
 .container li {
   list-style: disc;
 }
