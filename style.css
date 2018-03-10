@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #9900cc;
+  background-color: #cc66cc;
   width: 100%;
   line-height: 1.75;  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,7 +20,7 @@ body {
 }
 
 #eu {
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 .fixo h1 {
