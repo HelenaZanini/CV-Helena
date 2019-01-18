@@ -20,7 +20,7 @@ body {
 }
 
 #eu {
-  border-radius: 90%;
+  border-radius: 50%;
 }
 
 .fixo h1 {
@@ -51,10 +51,6 @@ body {
   text-align: justify;
 }
 
-.container hr {
-  margin: 2.5% 0 2.5% 0;
-}
-
 .container li {
   margin-left: 2.5%;
   list-style: disc;
@@ -76,4 +72,23 @@ body {
     margin: 5% 2.5% 2.5% auto;
     width: 75%;
   }
+}
+
+@media print {
+  body {
+    line-height: 1.5;  
+  }
+
+  .container h2 {
+    margin-left: -1%;
+  }
+
+  .container p, .container ul {
+    width: 100%;
+  }
+
+  .dashed_line {
+    width: 100%;
+  }
+
 }
